@@ -46,7 +46,7 @@ export function TopBar() {
 
   function handleClickAdmin() {
     router.push(
-      "https://boutiquemonaco.suprainnovations.store/admin-dashboard/"
+      "https://wonderarthome.workhard.site/admin-dashboard/"
     );
   }
 
@@ -55,7 +55,7 @@ export function TopBar() {
       <div className={styles.topbar_component}>
         <div className={styles.right}>
           <div onClick={() => toggleModal()}>
-            <BiMenu size={30} color="#DAA520" />
+            <BiMenu size={30} color="#8f7221" />
           </div>
           
         </div>
@@ -66,12 +66,12 @@ export function TopBar() {
 
         <div className={styles.right}>
           <div onClick={() => router.push("/featured")}>
-            <BsSearch size={25} color="#DAA520" />
+            <BsSearch size={25} color="#8f7221" />
           </div>
 
           <div className={styles.cart} onClick={() => router.push("/cart")}>
             <p> {total > 0 ? total : ""}</p>
-            <AiOutlineShoppingCart size={25} color="#DAA520" />
+            <AiOutlineShoppingCart size={25} color="#8f7221" />
           </div>
         </div>
       </div>

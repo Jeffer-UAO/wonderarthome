@@ -47,7 +47,7 @@ export function Footer() {
       </div> */}
       <div>
         <p className={styles.copyright}>
-        WONDER ART HOME <br/> Copyright © 2024. Todos los derechos
+        WONDER ART HOME <br/> Copyright © 2025. Todos los derechos
           reservados <br />
           Desarrollado por: SupraInnovations <br />
           Cel: 324 488 3630
